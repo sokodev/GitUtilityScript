@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-find . -maxdepth 2 -name ".git" -type d -exec gitfetch "{}" ";"
+find . -maxdepth 2 -name ".git" -type d -exec gitFetch "{}" ";"
